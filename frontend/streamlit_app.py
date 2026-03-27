@@ -9,6 +9,7 @@ if str(ROOT_DIR) not in sys.path:
 
 from backend.qa_service import answer_question
 
+
 st.title("QApp - Simple Docker Demo")
 question = st.text_input("Ask a question")
 if st.button("Ask") and question.strip():
